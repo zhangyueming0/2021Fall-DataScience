@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: UTF-8
+  servlet:
+    encoding:
+      charset: utf-8
+      force: true
+      enabled: true
+      force-response: true
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+  servlet:
+    multipart:
+      max-request-size: 100MB
+      location: "C:\\Users\\dell\\Desktop\\DataScience\\src\\main\\resources\\Documents\\"
+
+
+
